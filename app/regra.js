@@ -1,11 +1,17 @@
 // Quando clico no botão de regra, renderiza o campo de texto
+// document.getElementById("regrasBtn").addEventListener("click", function() {
+//     var regrasDiv = document.getElementById("regrasDiv");
+//     if (regrasDiv.style.display === "none") {
+//         regrasDiv.style.display = "block";
+//     } else {
+//         regrasDiv.style.display = "none";
+//     }
+// });
+
+// Quando clico no botão de regra, renderiza o campo de texto
 document.getElementById("regrasBtn").addEventListener("click", function() {
     var regrasDiv = document.getElementById("regrasDiv");
-    if (regrasDiv.style.display === "none") {
-        regrasDiv.style.display = "block";
-    } else {
-        regrasDiv.style.display = "none";
-    }
+    alert(regrasDiv.textContent);
 });
 
 // Adicionando event listener para ocultar regrasDiv ao clicar fora
@@ -18,9 +24,9 @@ document.addEventListener('click', function(event) {
     }
 });
 
-document.addEventListener('keydown', function(event) {
-    var regrasDiv = document.getElementById("regrasDiv");
-    if (event.key === "Escape") { // Verifica se a tecla pressionada é 'Esc'
-        regrasDiv.style.display = "none";
-    }
-});
+// document.addEventListener('keydown', function(event) {
+//     var regrasDiv = document.getElementById("regrasDiv");
+//     if (event.key === "Escape") { // Verifica se a tecla pressionada é 'Esc'
+//         regrasDiv.style.display = "none";
+//     }
+// });
