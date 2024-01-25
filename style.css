@@ -35,19 +35,6 @@ body {
 
 #regrasDiv {
     display: none; 
-    /* position: fixed; 
-    top: 10px; 
-    left: 60px; 
-    width: auto; 
-    height: auto; 
-    border: 1px solid var(--primary-color);
-    border-radius: 10px;
-    line-height: 1.2;
-    padding: 1rem;
-    z-index: 1000;
-    background-color: var(--bg-color);
-    font-size: 0.8rem;
-    text-align: justify; */
 }
 
 h1 {
